@@ -3,7 +3,7 @@ import pandas as pd
 import re
 
 # Define the directory containing your CSV files
-directory = 'F:/SCANS/0-ME-Collagen Project/1- Bruce in vivos/CTFire/ROIS/output/CA_Out'
+directory = 'F:/0-ME-Collagen Project/CTFire/ROIS/output/CA_Out'
 
 # Compile regular expression pattern for matching file names (TB, PIF, DIF)
 pattern = re.compile(r'(TB|PIF|DIF)\d+_Colour_1_fibFeatures\.csv')
