@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Path to the TSV file
-file_path = r'F:\SCANS\0-ME-Collagen Project\0- MTC TMAs\Cores for matrix topography\FIM2\Qupath\FIM2_measurements_Haralick.tsv'
+file_path = r'F:\0-ME-Collagen Project\measurements_Haralick.tsv'
 
 # Read the TSV file
 df = pd.read_csv(file_path, delimiter='\t')
@@ -17,7 +17,7 @@ result = df.groupby(['Image'])[entropy_column].agg(['mean', 'median']).reset_ind
 result.columns = ['Image', 'Mean Entropy', 'Median Entropy']
 
 # Save the results to a new TSV file
-output_path = r'F:\SCANS\0-ME-Collagen Project\0- MTC TMAs\Cores for matrix topography\FIM2\Qupath\entropy_results.tsv'
+output_path = r'F:\entropy_results.tsv'
 result.to_csv(output_path, sep='\t', index=False)
 
 print('The mean and median entropy values have been successfully calculated and saved.')
