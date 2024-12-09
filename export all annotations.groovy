@@ -4,7 +4,7 @@ import qupath.lib.scripting.QP
 import qupath.lib.images.writers.ImageWriterTools
 
 // Define the directory where the TIFF files will be saved
-String dir = "D:/SCANS/0-ME-Collagen Project/0- MTC TMAs/MTC validation patients/TIFFs/Case1"
+String dir = "F:/0-ME-Collagen Project/0- MTC TMAs/MTC validation patients/TIFFs/Case1"
 
 // Ensure the directory exists
 new File(dir).mkdirs()
