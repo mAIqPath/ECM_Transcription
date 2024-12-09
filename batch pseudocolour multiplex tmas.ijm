@@ -1,6 +1,6 @@
 macro "Identify and Process Common TMA Cores" {
-    baseDir = "F:/SCANS/0-ME-Collagen Project/Marta/Analysis pMLC2-MLC2/Melanoma_qupath/multiplex/";
-    saveDir = "F:/SCANS/0-ME-Collagen Project/Marta/Analysis pMLC2-MLC2/Melanoma_qupath/multiplex/Multiplex/";
+    baseDir = "F:multiplex/";
+    saveDir = "F:multiplex/Multiplex/";
     dir1 = baseDir + "pMLC2/";
     dir2 = baseDir + "MLC2/";
     dir3 = baseDir + "panmelan/";
